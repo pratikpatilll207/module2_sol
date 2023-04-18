@@ -25,6 +25,20 @@
         clear: right;
     }
 
+    .sub3 {
+        color: black;
+        float: right;
+        width: 100px;
+        padding: 5px;
+         margin: -3px -3px 0px;
+        border: 3.5px solid black;
+        text-align: center;
+        font-size: 125%;
+        font-weight: bold;
+        background-color: rgb(223, 212, 121);
+
+    }
+
     div {
         position: relative;
         background-color: gray;
@@ -62,19 +76,6 @@
 
     }
 
-    .sub3 {
-        color: black;
-        float: right;
-        width: 100px;
-        padding: 5px;
-         margin: -3px -3px 0px;
-        border: 3.5px solid black;
-        text-align: center;
-        font-size: 125%;
-        font-weight: bold;
-        background-color: rgb(223, 212, 121);
-
-    }
 
     .content {
         padding: 5px;
@@ -89,6 +90,13 @@
 
     .row {
         width: 90%;
+    }
+   /*mobile version*/
+    @media (max-width: 767px) {
+        .colmn-sm-12 {
+            float: left;
+            width: 100%;
+        }
     }
 
     /*desktop version*/
@@ -116,10 +124,4 @@
         }
     }
 
-    /*mobile version*/
-    @media (max-width: 767px) {
-        .colmn-sm-12 {
-            float: left;
-            width: 100%;
-        }
-    }
+ 
